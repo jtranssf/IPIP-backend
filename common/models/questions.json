@@ -17,10 +17,6 @@
     "Style": {
       "type": "string",
       "required": true
-    },
-    "Score": {
-      "type": "number",
-      "required": false
     }
   },
   "validations": [],
