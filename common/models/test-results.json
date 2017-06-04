@@ -1,0 +1,42 @@
+{
+  "name": "TestResults",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "Extraversion": {
+      "type": "number",
+      "required": true
+    },
+    "Agreeableness": {
+      "type": "number",
+      "required": true
+    },
+    "Conscientiousness": {
+      "type": "number",
+      "required": true
+    },
+    "EmotionalStability": {
+      "type": "number",
+      "required": true
+    },
+    "Intellect": {
+      "type": "number",
+      "required": true
+    },
+    "createDate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

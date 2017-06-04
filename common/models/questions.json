@@ -1,0 +1,30 @@
+{
+  "name": "Questions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Keyed": {
+      "type": "boolean",
+      "required": true
+    },
+    "Text": {
+      "type": "string",
+      "required": true
+    },
+    "Style": {
+      "type": "string",
+      "required": true
+    },
+    "Score": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
