@@ -8,13 +8,13 @@ How to Run:
 Make sure that you are using node version 6.9.4
 In your c9 environment, open up two terminals:  
 
-terminal 1:  
+Terminal 1  (this runs your mongoDB database)
 
 >cd IPIP-backend 
 
 >./mongod
 
-terminal 2: 
+Terminal 2 (this runs your strongloop application.  Will only work if mongo is up and running. Browse your REST api at http://0.0.0.0:8080/explorer) 
 
 >cd IPIP-backend
 
